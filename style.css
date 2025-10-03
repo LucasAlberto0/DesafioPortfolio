@@ -7,6 +7,28 @@ section{
     height: 100vh;
 }
 
+/*Página 1*/
+
+.foto-home{
+    width: 370px;
+    height: 420px;
+    border-radius: 10%;
+    border-top: solid  #602cb5 6px;
+    border-bottom: solid  #602cb5 6px;
+}
+
+.titulo-home{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.subtitulo-home{
+    font-size: 2.5rem;
+    display: flex;
+    color: #602cb5;
+    justify-content: end;
+}
+
 .page-1{
     background-color: black;
     display: flex;
@@ -14,10 +36,54 @@ section{
     align-items: center;
 
 }
+
+.conatainer-max{
+    max-width: 1300px;
+}
+
+
+
+/*Página 2*/
+
+.sobreMim{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    max-width: 1000px;
+}
+
+.sobreMimText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+}
+
+.page-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-sobre-mim{
+    border-radius: 10%;
+    border-bottom: solid  #602cb5 6px;
+    border-top: solid  #602cb5 6px;
+        width: 370px;
+    height: 420px;
+}
+
 .container{
     display: flex;
     flex-direction: row;
-    max-width: 1920px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.sobreMimTextSize{
+    font-size: 1.2rem;
 }
 
 .page-2{
