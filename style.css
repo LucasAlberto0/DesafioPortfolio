@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+}
+
+.page-1{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1920px;
+}
+
+.page-2{
+    background-color: white;
+
+}
+
+.page-3{
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
