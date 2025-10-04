@@ -11,44 +11,61 @@
     <link rel="stylesheet" href="fonts.css">
     <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
 </head>
 
 <body>
-    <section class="page-1" >
+
+    <header>
+        <nav>
+            <div class="quando-regular"><img class="logo white-filter" src="Assets/assinatura.png" alt="assinatura" ></div>
+            <ul class="menu" id="menu">
+                <li class="quando-regular"><a href="#home">Home</a></li>
+                <li class="quando-regular"><a href="#sobre">Sobre</a></li>
+                <li class="quando-regular"><a href="#projetos">Projetos</a></li>
+                <li class="quando-regular"><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-btn" id="menu-btn">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+    <section class="page-1" id="#home">
         <div class="container" data-aos="zoom-in" data-aos-duration="2000">
-        <aside>
-            <img class="foto-home" src="Assets/albertofoto.jpg" alt="">
-        </aside>
-        <aside>
-            <h1 class="titulo-home quando-regular-b">Olá, sou o Lucas Alberto</h1>
-            <h2 class="subtitulo-home quando-regular">Desenvolvedor FullStack</h2>
-            <h2 class="subtitulo-home quando-regular">& Gestor de Automação</h2>
-        </aside>
-    </div>
+            <aside>
+                <img class="foto-home" src="Assets/albertofoto.jpg" alt="">
+            </aside>
+            <aside>
+                <h1 class="titulo-home quando-regular-b">Olá, sou o Lucas Alberto</h1>
+                <h2 class="subtitulo-home quando-regular">Desenvolvedor FullStack</h2>
+                <h2 class="subtitulo-home quando-regular">& Gestor de Automação</h2>
+            </aside>
+        </div>
     </section>
-    <section class="page-2" >
+    <section class="page-2" id="#sobre">
         <article class="conatainer-max sobreMim">
-        <div class="sobreMimText" data-aos="zoom-in" data-aos-duration="2000">
-        <h1 class="subtitulo-home quando-regular-b">Sobre Mim</h1>
-        <div class="quando-regular sobreMimTextSize" >
-            Formado em Técnico em
+            <div class="sobreMimText" data-aos="zoom-in" data-aos-duration="2000">
+                <h1 class="subtitulo-home quando-regular-b">Sobre Mim</h1>
+                <div class="quando-regular sobreMimTextSize">
+                    Formado em Técnico em
                     Informática, atualmente estou cursando o bacharelado de Engenharia da
                     Computação</span></a> e sou integrante da Mosten. Sou um profissional
-            em desenvolvimento front-end com experiência nas tecnologias essenciais para criar interfaces web
-            dinâmicas e atraentes. </div></div>
-            <img class="foto-sobre-mim"  src="Assets/albertofoto2.jpg" alt="" data-aos="zoom-in" data-aos-duration="3000">
-    </article>
+                    em desenvolvimento front-end com experiência nas tecnologias essenciais para criar interfaces web
+                    dinâmicas e atraentes. </div>
+            </div>
+            <img class="foto-sobre-mim" src="Assets/albertofoto2.jpg" alt="" data-aos="zoom-in"
+                data-aos-duration="3000">
+        </article>
     </section>
     <section class="page-3">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quam, sed culpa voluptatem quasi porro, aperiam, repellendus eligendi voluptas provident non aliquam. Velit alias nisi quod! Aut excepturi atque magni.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quam, sed culpa voluptatem quasi porro,
+            aperiam, repellendus eligendi voluptas provident non aliquam. Velit alias nisi quod! Aut excepturi atque
+            magni.</p>
     </section>
-    
-    
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-    AOS.init();
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>

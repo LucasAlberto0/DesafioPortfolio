@@ -1,35 +1,103 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-section{
+section {
     height: 100vh;
+}
+
+/*Menu Interativo*/
+
+header {
+    width: 100%;
+    background: #111;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.logo {
+    height: 50px;
+    width: 160px;
+}
+
+.logo:hover{
+    scale: 1.1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.white-filter {
+    filter: brightness(0) invert(1);
+    }
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    color: #602cb5;
+}
+
+.menu-btn {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.menu-btn div {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    border-radius: 3px;
+    transition: 0.3s;
 }
 
 /*Página 1*/
 
-.foto-home{
-    width: 370px;
+.foto-home {
+    width: 320px;
     height: 420px;
     border-radius: 10%;
-    border-top: solid  #602cb5 6px;
-    border-bottom: solid  #602cb5 6px;
+    border-top: solid #602cb5 6px;
+    border-bottom: solid #602cb5 6px;
 }
 
-.titulo-home{
+.titulo-home {
     font-size: 3.5rem;
     font-weight: 700;
 }
 
-.subtitulo-home{
+.subtitulo-home {
     font-size: 2.5rem;
     display: flex;
     color: #602cb5;
     justify-content: end;
 }
 
-.page-1{
+.page-1 {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -37,22 +105,21 @@ section{
 
 }
 
-.conatainer-max{
+.conatainer-max {
     max-width: 1300px;
 }
 
 
-
 /*Página 2*/
 
-.sobreMim{
+.sobreMim {
     display: flex;
     justify-content: center;
     gap: 100px;
     max-width: 1000px;
 }
 
-.sobreMimText{
+.sobreMimText {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -60,21 +127,21 @@ section{
     gap: 18px;
 }
 
-.page-2{
+.page-2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.foto-sobre-mim{
+.foto-sobre-mim {
     border-radius: 10%;
-    border-bottom: solid  #602cb5 6px;
-    border-top: solid  #602cb5 6px;
-        width: 370px;
+    border-bottom: solid #602cb5 6px;
+    border-top: solid #602cb5 6px;
+    width: 370px;
     height: 420px;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -82,26 +149,57 @@ section{
     gap: 100px;
 }
 
-.sobreMimTextSize{
+.sobreMimTextSize {
     font-size: 1.2rem;
 }
 
-.page-2{
+.page-2 {
     background-color: white;
 
 }
 
-.page-3{
+.page-3 {
     background-color: black;
 }
 
-p{
+p {
     color: white;
 }
 
-h1{
+h1 {
     color: white;
 }
-h2{
+
+h2 {
     color: white;
+}
+
+
+/*Responsividade*/
+
+@media (max-width: 768px) {
+    .menu {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background: #111;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+
+    .menu.show {
+        max-height: 300px;
+    }
+
+    .menu li {
+        margin: 15px 0;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
 }
