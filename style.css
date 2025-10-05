@@ -3,11 +3,25 @@
     padding: 0;
 }
 
-section {
-    height: 100vh;
+html{
+    scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+
+}   
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #602cb5;
+}
+
+
 /*Menu Interativo*/
+
+
 
 header {
     width: 100%;
@@ -29,14 +43,16 @@ nav {
 }
 
 .logo {
-    height: 50px;
+    height: 40px;
     width: 160px;
+    transition: transform 0.3s ease;
 }
 
 .logo:hover{
     scale: 1.1;
     transition: 0.3s;
     cursor: pointer;
+    
 }
 
 .white-filter {
@@ -77,6 +93,7 @@ nav {
 
 /*Página 1*/
 
+
 .foto-home {
     width: 320px;
     height: 420px;
@@ -102,6 +119,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 
 }
 
@@ -112,11 +130,12 @@ nav {
 
 /*Página 2*/
 
+
 .sobreMim {
     display: flex;
     justify-content: center;
     gap: 100px;
-    max-width: 1000px;
+    max-width: 1100px;
 }
 
 .sobreMimText {
@@ -127,7 +146,14 @@ nav {
     gap: 18px;
 }
 
+.mostenLogo{
+    width: 85px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
 .page-2 {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +176,8 @@ nav {
 }
 
 .sobreMimTextSize {
-    font-size: 1.2rem;
+    text-align: center;
+    font-size: 1.4rem;
 }
 
 .page-2 {
@@ -174,6 +201,127 @@ h2 {
     color: white;
 }
 
+/*Página 3 - Tecnologias*/
+
+.page-3{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.containerTecnologias{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.articleTecnologias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    max-width: 1300px;
+    flex-wrap: wrap;
+}
+
+.articleTecnologias div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subtituloTecnologias{
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+
+.tecnologiaBox{
+    padding: 30px;
+    border: #602cb5 solid 6px;
+    border-radius: 20px;
+}
+
+.iconTecnologia{
+    height: 90px;
+    width: 90px;
+}
+
+.page-3 h1{
+    font-size: 2.5rem;
+    color: #602cb5;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Página 3 - Projetos*/
+
+.projetosArticle{
+    display: flex;
+    justify-content: center;
+}
+
+.projetoBox{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 12px #602cb5;
+    border-radius: 15px;
+
+}
+
+.projetoBox div{
+    color: white;
+    text-decoration: none;
+}
+
+.projetoBox p {
+    font-size: 1.2rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #602cb5;
+    
+}
+
+.projetoTecnologias{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #602cb5;
+    gap: 5px;
+}
+
+.projetoTecnologias img{
+    width: 25px;
+    height: 25px;
+}
+
+.projetoBox .projetoImg{
+    height: 200px;
+    width: auto;
+}
+
+.descricaoProjeto{
+    padding: 8px;
+    height: 200px;
+    text-align: center;
+}
+.projetosContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    max-width: 1300px;
+}
 
 /*Responsividade*/
 
