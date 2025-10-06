@@ -277,6 +277,9 @@ h2 {
 
 .projetoBox div {
     color: white;
+}
+
+.projetoBox a {
     text-decoration: none;
 }
 
