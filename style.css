@@ -3,25 +3,30 @@
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
     background-color: black;
 
-}   
+}
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     width: 10px;
     background-color: #602cb5;
 }
 
+.white-filter {
+    filter: brightness(0) invert(1);
+}
+
+.black-filter {
+    filter: brightness(0) invert(0);
+}
 
 /*Menu Interativo*/
-
-
 
 header {
     width: 100%;
@@ -45,19 +50,17 @@ nav {
 .logo {
     height: 40px;
     width: 160px;
-    transition: transform 0.3s ease;
+    transition: all 0.4s ease;
 }
 
-.logo:hover{
+.logo:hover {
     scale: 1.1;
     transition: 0.3s;
     cursor: pointer;
-    
+
 }
 
-.white-filter {
-    filter: brightness(0) invert(1);
-    }
+
 
 .menu {
     display: flex;
@@ -146,7 +149,7 @@ nav {
     gap: 18px;
 }
 
-.mostenLogo{
+.mostenLogo {
     width: 85px;
     height: 25px;
     vertical-align: bottom;
@@ -203,18 +206,18 @@ h2 {
 
 /*Página 3 - Tecnologias*/
 
-.page-3{
+.page-3 {
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-.containerTecnologias{
+.containerTecnologias {
     padding-top: 50px;
     display: flex;
     justify-content: center;
 }
 
-.articleTecnologias{
+.articleTecnologias {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,7 +227,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-.articleTecnologias div{
+.articleTecnologias div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,24 +235,24 @@ h2 {
     gap: 10px;
 }
 
-.subtituloTecnologias{
+.subtituloTecnologias {
     color: #fff;
     font-size: 1.5rem;
 
 }
 
-.tecnologiaBox{
+.tecnologiaBox {
     padding: 30px;
     border: #602cb5 solid 6px;
     border-radius: 20px;
 }
 
-.iconTecnologia{
+.iconTecnologia {
     height: 90px;
     width: 90px;
 }
 
-.page-3 h1{
+.page-3 h1 {
     font-size: 2.5rem;
     color: #602cb5;
     padding-top: 100px;
@@ -259,12 +262,12 @@ h2 {
 
 /*Página 3 - Projetos*/
 
-.projetosArticle{
+.projetosArticle {
     display: flex;
     justify-content: center;
 }
 
-.projetoBox{
+.projetoBox {
     width: 300px;
     height: auto;
     display: flex;
@@ -275,7 +278,7 @@ h2 {
 
 }
 
-.projetoBox div{
+.projetoBox div {
     color: white;
     text-decoration: none;
 }
@@ -286,10 +289,10 @@ h2 {
     display: flex;
     justify-content: center;
     background-color: #602cb5;
-    
+
 }
 
-.projetoTecnologias{
+.projetoTecnologias {
     padding: 8px;
     display: flex;
     justify-content: center;
@@ -297,22 +300,23 @@ h2 {
     gap: 5px;
 }
 
-.projetoTecnologias img{
+.projetoTecnologias img {
     width: 25px;
     height: 25px;
 }
 
-.projetoBox .projetoImg{
+.projetoBox .projetoImg {
     height: 200px;
     width: auto;
 }
 
-.descricaoProjeto{
+.descricaoProjeto {
     padding: 8px;
     height: 200px;
     text-align: center;
 }
-.projetosContainer{
+
+.projetosContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,6 +325,103 @@ h2 {
     flex-wrap: wrap;
     padding-top: 50px;
     max-width: 1300px;
+}
+
+/*Pagina 4*/
+
+.page-4 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+.contatoArticle {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+}
+
+input {
+    width: 400px;
+    border: #602cb5 solid 5px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    padding: 6px;
+}
+
+textarea {
+    width: 400px;
+    border: #602cb5 solid 5px;
+    font-size: 1.1rem;
+    padding: 6px;
+    resize: none;
+    height: 130px;
+}
+
+button {
+    border: #602cb5 solid 5px;
+    background-color: #602cb5;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    background-color: #150136;
+    border: #150136 solid 5px;
+}
+
+aside h2 {
+    font-size: 1.6rem;
+    color: #111;
+    justify-content: end;
+}
+
+aside img {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+aside img:hover {
+    transform: scale(1.2);
+    transition: all ease 0.4s;
+}
+
+.redesIcon {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.paddingCustom {
+    padding-bottom: 40px;
+}
+
+.page-4 h1 {
+    font-size: 2.5rem;
+    color: #602cb5;
+}
+
+footer {
+    text-align: center;
 }
 
 /*Responsividade*/
