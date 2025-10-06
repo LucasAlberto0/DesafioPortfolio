@@ -27,7 +27,6 @@ html {
 }
 
 /*Menu Interativo*/
-
 header {
     width: 100%;
     background: #111;
@@ -59,8 +58,6 @@ nav {
     cursor: pointer;
 
 }
-
-
 
 .menu {
     display: flex;
@@ -95,8 +92,6 @@ nav {
 }
 
 /*Página 1*/
-
-
 .foto-home {
     width: 320px;
     height: 420px;
@@ -130,15 +125,27 @@ nav {
     max-width: 1300px;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
 
 /*Página 2*/
-
-
 .sobreMim {
     display: flex;
     justify-content: center;
     gap: 100px;
     max-width: 1100px;
+}
+
+.divImagemSobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sobreMimText {
@@ -170,14 +177,6 @@ nav {
     height: 420px;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
-}
-
 .sobreMimTextSize {
     text-align: center;
     font-size: 1.4rem;
@@ -205,10 +204,9 @@ h2 {
 }
 
 /*Página 3 - Tecnologias*/
-
 .page-3 {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .containerTecnologias {
@@ -225,6 +223,7 @@ h2 {
     flex-direction: row;
     max-width: 1300px;
     flex-wrap: wrap;
+    padding-bottom: 80px;
 }
 
 .articleTecnologias div {
@@ -255,13 +254,11 @@ h2 {
 .page-3 h1 {
     font-size: 2.5rem;
     color: #602cb5;
-    padding-top: 100px;
     display: flex;
     justify-content: center;
 }
 
 /*Página 3 - Projetos*/
-
 .projetosArticle {
     display: flex;
     justify-content: center;
@@ -328,7 +325,6 @@ h2 {
 }
 
 /*Pagina 4*/
-
 .page-4 {
     height: 100vh;
     display: flex;
@@ -396,11 +392,12 @@ aside img {
     height: 30px;
     width: 30px;
     vertical-align: middle;
+    transition: all ease 0.4s;
 }
 
-aside img:hover {
+aside .black-filter:hover {
     transform: scale(1.2);
-    transition: all ease 0.4s;
+
 }
 
 .redesIcon {
@@ -422,33 +419,4 @@ aside img:hover {
 
 footer {
     text-align: center;
-}
-
-/*Responsividade*/
-
-@media (max-width: 768px) {
-    .menu {
-        position: absolute;
-        top: 70px;
-        right: 0;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        background: #111;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.3s ease;
-    }
-
-    .menu.show {
-        max-height: 300px;
-    }
-
-    .menu li {
-        margin: 15px 0;
-    }
-
-    .menu-btn {
-        display: flex;
-    }
 }

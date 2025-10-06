@@ -1,0 +1,777 @@
+@media (max-width: 1279px) {
+
+    /*Menu Interativo*/
+    nav {
+        max-width: 900px;
+    }
+
+    .logo {
+        height: 38px;
+        width: 150px;
+    }
+
+
+    .menu li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        transition: 0.3s;
+    }
+
+
+    /*Página 1*/
+    .foto-home {
+        width: 240px;
+        height: 320px;
+    }
+
+    .titulo-home {
+        font-size: 3rem;
+    }
+
+    .subtitulo-home {
+        font-size: 2.1rem;
+    }
+
+    .conatainer-max {
+        max-width: 800px;
+    }
+
+    .container {
+        gap: 80px;
+    }
+
+
+    /*Página 2*/
+    .sobreMim {
+        gap: 90px;
+        max-width: 900px;
+    }
+
+
+    .mostenLogo {
+        width: 85px;
+        height: 25px;
+        vertical-align: bottom;
+    }
+
+    .page-2 {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foto-sobre-mim {
+        width: 330px;
+        height: 380px;
+    }
+
+    .sobreMimTextSize {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    /*Página 3 - Tecnologias*/
+    .page-3 {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .articleTecnologias {
+        gap: 20px;
+        max-width: 1000px;
+        padding-bottom: 80px;
+    }
+
+    .subtituloTecnologias {
+        font-size: 1.1rem;
+    }
+
+    .tecnologiaBox {
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .iconTecnologia {
+        height: 80px;
+        width: 80px;
+    }
+
+    .page-3 h1 {
+        font-size: 2.1rem;
+    }
+
+    /*Página 3 - Projetos*/
+    .projetoBox {
+        width: 270px;
+
+    }
+
+    .projetoBox p {
+        font-size: 1.1rem;
+    }
+
+    .projetoTecnologias img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .descricaoProjeto {
+        font-size: 0.9rem;
+    }
+
+    .projetosContainer {
+        max-width: 1000px;
+    }
+
+    /*Pagina 4*/
+    input {
+        font-size: 1rem;
+    }
+
+    textarea {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1.1rem;
+        padding: 8px 5px;
+    }
+
+    aside h2 {
+        font-size: 1.5rem;
+    }
+
+    .page-4 h1 {
+        font-size: 2.1rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+}
+
+
+@media (max-width: 1069px) {
+    /*Menu Interativo*/
+    nav {
+        max-width: 800px;
+    }
+
+    .logo {
+        height: 35px;
+        width: 140px;
+    }
+
+    /*Página 1*/
+    .titulo-home {
+        font-size: 2.7rem;
+    }
+
+    .subtitulo-home {
+        font-size: 1.8rem;
+    }
+
+    .conatainer-max {
+        max-width: 800px;
+    }
+
+    .container {
+        gap: 50px;
+    }
+
+
+    /*Página 2*/
+    .sobreMim {
+        gap: 50px;
+        max-width: 800px;
+    }
+
+
+    .mostenLogo {
+        width: 80px;
+        height: 22px;
+    }
+
+    .sobreMimTextSize {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    /*Página 3 - Tecnologias*/
+    .articleTecnologias {
+        gap: 20px;
+        max-width: 800px;
+        padding-bottom: 80px;
+    }
+
+    .subtituloTecnologias {
+        font-size: 1rem;
+    }
+
+    .tecnologiaBox {
+        padding: 22px;
+    }
+
+    .iconTecnologia {
+        height: 70px;
+        width: 70px;
+    }
+
+    .page-3 h1 {
+        font-size: 1.8rem;
+    }
+
+    /*Página 3 - Projetos*/
+    .projetoBox {
+        width: 240px;
+    }
+
+    .projetoTecnologias img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .descricaoProjeto {
+        font-size: 0.8rem;
+        height: 160px;
+    }
+
+    .projetosContainer {
+        max-width: 900px;
+    }
+
+    /*Pagina 4*/
+    input {
+        font-size: 0.9rem;
+    }
+
+    textarea {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 5px 5px;
+    }
+
+    aside h2 {
+        font-size: 1.5rem;
+    }
+
+    .page-4 h1 {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width: 991px) {
+
+    /*Menu Interativo*/
+    nav {
+        max-width: 700px;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    .logo {
+        height: 28px;
+        width: 120px;
+    }
+
+    .menu li a {
+        font-size: 18px;
+    }
+
+    /*Página 1*/
+    .foto-home {
+        width: 200px;
+        height: 260px;
+    }
+
+    .titulo-home {
+        font-size: 2.1rem;
+    }
+
+    .subtitulo-home {
+        font-size: 1.4rem;
+    }
+
+    .conatainer-max {
+        max-width: 700px;
+    }
+
+    .container {
+        gap: 30px;
+    }
+
+    /*Página 2*/
+    .sobreMim {
+        max-width: 700px;
+    }
+
+    .mostenLogo {
+        width: 60px;
+        height: 20px;
+    }
+
+    .foto-sobre-mim {
+        width: 300px;
+        height: 350px;
+    }
+    .sobreMimTextSize {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    /*Página 3 - Tecnologias*/
+    .page-3 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .articleTecnologias {
+        gap: 18px;
+        max-width: 700px;
+    }
+
+    .subtituloTecnologias {
+        font-size: 1rem;
+    }
+
+    .tecnologiaBox {
+        padding: 22px;
+        border: #602cb5 solid 5px;
+    }
+
+    .iconTecnologia {
+        height: 60px;
+        width: 60px;
+    }
+
+    .page-3 h1 {
+        font-size: 1.4rem;
+    }
+
+    /*Página 3 - Projetos*/
+    .projetoBox {
+        width: 260px;
+
+    }
+
+    .projetoBox p {
+        font-size: 1rem;
+    }
+
+    .descricaoProjeto {
+        font-size: 0.8rem;
+    }
+
+    .projetosContainer {
+        max-width: 700px;
+    }
+
+    /*Pagina 4*/
+    input {
+        width: 350px;
+        font-size: 0.8rem;
+    }
+
+    .contatoArticle {
+        gap: 40px;
+    }
+
+    textarea {
+        width: 350px;
+        font-size: 0.8rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 4px 5px;
+    }
+
+    aside h2 {
+        font-size: 1.2rem;
+    }
+
+    .page-4 h1 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /*Menu Interativo*/
+    .menu {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background: #111;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+
+    .menu.show {
+        max-height: 300px;
+    }
+
+    .menu li {
+        margin: 15px 0;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+
+    nav {
+        max-width: 600px;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    .logo {
+        height: 26px;
+        width: 118px;
+    }
+
+    .menu li a {
+        font-size: 18px;
+    }
+
+
+    /*Página 1*/
+    .container {
+        flex-direction: column;
+    }
+
+    .foto-home {
+        width: 180px;
+        height: 240px;
+    }
+
+    .titulo-home {
+        font-size: 1.8rem;
+    }
+
+    .subtitulo-home {
+        font-size: 1.3rem;
+    }
+
+    .conatainer-max {
+        max-width: 600px;
+    }
+
+    /*Página 2*/
+    .sobreMim {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 70px;
+        max-width: 200px;
+    }
+
+    .sobreMimTextSize {
+        max-width: 450px;
+    }
+
+    .sobreMim {
+        max-width: 700px;
+    }
+
+    .foto-sobre-mim {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mostenLogo {
+        width: 60px;
+        height: 20px;
+    }
+
+    .foto-sobre-mim {
+        width: 240px;
+        height: 280px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobreMimTextSize {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    /*Página 3 - Tecnologias*/
+    .articleTecnologias {
+        gap: 18px;
+        max-width: 450px;
+    }
+
+    .subtituloTecnologias {
+        font-size: 0.9rem;
+    }
+
+    .tecnologiaBox {
+        width: 70px;
+        height: 70px;
+        border: #602cb5 solid 5px;
+    }
+
+    .iconTecnologia {
+        height: 55px;
+        width: 55px;
+    }
+
+    .page-3 h1 {
+        font-size: 1.4rem;
+    }
+
+    /*Pagina 4*/
+    .page-4 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .redesIcon {
+        font-size: 0.8rem;
+    }
+
+    .contatoArticle {
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .page-4 h1 {
+        font-size: 1.4rem;
+    }
+
+    footer {
+        font-size: 0.6rem;
+    }
+}
+
+@media(max-width: 420px) {
+
+    /*Página 1*/
+    .titulo-home {
+        font-size: 1.5rem;
+    }
+
+    .subtitulo-home {
+        font-size: 1.2rem;
+    }
+
+    /*Página 2*/
+    .sobreMimTextSize {
+        max-width: 340px;
+    }
+
+    .mostenLogo {
+        width: 50px;
+        height: 16px;
+    }
+
+    .sobreMimTextSize {
+        font-size: 0.8rem;
+    }
+
+    /*Página 3 - Tecnologias*/
+    .articleTecnologias {
+        gap: 18px;
+        max-width: 380px;
+    }
+
+    /*Pagina 4*/
+    input {
+        width: 300px;
+    }
+
+    textarea {
+        width: 300px;
+    }
+}
+
+@media(max-width: 350px) {
+    /*Página 1*/
+    .titulo-home {
+        font-size: 1.4rem;
+    }
+
+    .subtitulo-home {
+        font-size: 1.1em;
+    }
+
+    /*Pagina 4*/
+    .page-4 {
+        height: 115vh;
+    }
+
+    input {
+        width: 280px;
+    }
+
+    textarea {
+        width: 280px;
+    }
+}
+
+/*Responsividade Notebook Hd*/
+@media (min-width: 1024px) and (max-height: 770px) {
+    nav {
+        max-width: 900px;
+    }
+
+    .logo {
+        height: 38px;
+        width: 150px;
+    }
+
+    .menu li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        transition: 0.3s;
+    }
+
+    /*Página 1*/
+    .foto-home {
+        width: 240px;
+        height: 320px;
+    }
+
+    .titulo-home {
+        font-size: 3rem;
+    }
+
+    .subtitulo-home {
+        font-size: 2.1rem;
+    }
+
+    .conatainer-max {
+        max-width: 800px;
+    }
+
+    .container {
+        gap: 80px;
+    }
+
+
+    /*Página 2*/
+    .sobreMim {
+        gap: 90px;
+        max-width: 900px;
+    }
+
+    .mostenLogo {
+        width: 70px;
+        height: 22px;
+        vertical-align: bottom;
+    }
+
+    .page-2 {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foto-sobre-mim {
+        width: 330px;
+        height: 380px;
+    }
+
+    .sobreMimTextSize {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    /*Página 3 - Tecnologias*/
+    .articleTecnologias {
+        gap: 20px;
+        max-width: 1000px;
+    }
+
+    .subtituloTecnologias {
+        font-size: 1.1rem;
+    }
+
+    .tecnologiaBox {
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .iconTecnologia {
+        height: 80px;
+        width: 80px;
+    }
+
+    .page-3 h1 {
+        font-size: 2.1rem;
+    }
+
+    /*Página 3 - Projetos*/
+    .projetoBox {
+        width: 270px;
+
+    }
+
+    .projetoBox p {
+        font-size: 1.1rem;
+    }
+
+    .projetoTecnologias img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .descricaoProjeto {
+        font-size: 0.9rem;
+    }
+
+    .projetosContainer {
+        max-width: 1000px;
+    }
+
+    /*Pagina 4*/
+    .page-4 {
+        height: 110vh;
+    }
+
+    input {
+        font-size: 1rem;
+    }
+
+    textarea {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1.1rem;
+        padding: 8px 5px;
+    }
+
+    aside h2 {
+        font-size: 1.5rem;
+    }
+
+    .page-4 h1 {
+        font-size: 2.1rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+}

@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LucasAlberto</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/fonts.css">
+    <link rel="stylesheet" href="Style/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="fonts.css">
     <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="Assets/scratch.png" type="image/x-icon">
@@ -53,13 +54,16 @@
                 <div class="quando-regular sobreMimTextSize">
                     Formado em Técnico em
                     Informática, atualmente estou cursando o bacharelado de Engenharia da
-                    Computação e sou integrante da <span><img class="mostenLogo" src="Assets/mosten-logo-at.png"
-                            alt=""></span>. Sou um profissional
+                    Computação e sou integrante da <a href="https://mosten.com/" target="_blank"
+                        rel="noopener"><span><img class="mostenLogo" src="Assets/mosten-logo-at.png" alt=""></span></a>.
+                    Sou um profissional
                     em desenvolvimento FullStack com experiência nas tecnologias essenciais para criar interfaces web
                     dinâmicas, atraentes e funcionais. </div>
             </div>
-            <img class="foto-sobre-mim" src="Assets/albertofoto2.jpg" alt="" data-aos="zoom-in"
-                data-aos-duration="3000">
+            <div class="divImagemSobre">
+                <img class="foto-sobre-mim" src="Assets/albertofoto2.jpg" alt="" data-aos="flip-left"
+                    data-aos-duration="1500">
+            </div>
         </article>
     </section>
 
@@ -280,6 +284,7 @@
     </section>
 
     <footer class="quando-regular">© 2025 / Lucas Alberto / Todos os direitos reservados</footer>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
